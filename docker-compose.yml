@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  emby-missing-monitor:
+    build: .
+    volumes:
+      - ./config.json:/app/config.json
+      - ./app.log:/app/app.log
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
