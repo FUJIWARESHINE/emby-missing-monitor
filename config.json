@@ -1,0 +1,7 @@
+{
+  "emby_url": "http://your-emby-server:8096",
+  "api_key": "your-emby-api-key",
+  "webhook_url": "https://discord.com/api/webhooks/your-webhook-url",
+  "check_interval_minutes": 30,
+  "notification_type": "discord"
+}
